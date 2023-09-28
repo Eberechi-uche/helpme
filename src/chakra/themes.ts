@@ -17,7 +17,7 @@ const colors = {
 };
 
 const fonts = {
-  heading: "var(--font-sora)",
+  heading: `var(--font-sora)`,
   color: "red",
 };
 
