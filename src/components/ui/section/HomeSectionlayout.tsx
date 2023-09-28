@@ -10,7 +10,7 @@ export default function HomeSectionLayout(props: HomeSectionLayoutProps) {
     <Flex
       w={"100%"}
       bg={"brand.white"}
-      h={"50vh"}
+      h={"fit-content"}
       px={{
         base: "8",
         lg: "16",
@@ -22,17 +22,28 @@ export default function HomeSectionLayout(props: HomeSectionLayoutProps) {
       <Flex
         flexDir={"column"}
         w={"100%"}
-        maxW={"1050px"}
+        maxW={"1100px"}
         align={"center"}
         justifySelf={"center"}
       >
         <Heading fontSize={"xl"} color={"brand.primary"}>
           {props.heading}
         </Heading>
-        <Text fontSize={"xs"} my={"2"}>
+        <Text fontSize={"xs"} my={"4"}>
           {props.subHeading}
         </Text>
-        <Flex>{props.children}</Flex>
+        <Flex
+          w={"100%"}
+          py={"6"}
+          overflowX={"scroll"}
+          sx={{
+            "::-webkit-scrollbar": {
+              display: "none",
+            },
+          }}
+        >
+          {props.children}
+        </Flex>
       </Flex>
     </Flex>
   );

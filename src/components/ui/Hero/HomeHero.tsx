@@ -11,11 +11,12 @@ export default function HomeHero() {
           base: "8",
           lg: "16",
         }}
+        justify={"center"}
       >
         <Flex
           w={"100%"}
           justify={"space-between"}
-          maxW={"1050px"}
+          maxW={"1100px"}
           flexWrap={"wrap"}
         >
           <Flex

@@ -1,6 +1,10 @@
 import HomeHero from "@/components/ui/Hero/HomeHero";
+import {
+  FeaturesCardLayout,
+  HightLightCardLayout,
+} from "@/components/ui/card/infoCard";
+
 import HomeSectionLayout from "@/components/ui/section/HomeSectionlayout";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,11 +13,12 @@ export default function Home() {
       <HomeSectionLayout
         heading="Features"
         subHeading="Key highlight of our extention"
-      ></HomeSectionLayout>
-      <HomeSectionLayout
-        heading="How it works"
-        subHeading="Key highlight of our extention"
-      ></HomeSectionLayout>
+      >
+        <FeaturesCardLayout />
+      </HomeSectionLayout>
+      <HomeSectionLayout heading="How it works">
+        <HightLightCardLayout />
+      </HomeSectionLayout>
     </main>
   );
 }

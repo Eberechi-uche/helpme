@@ -9,9 +9,9 @@ const colors = {
   brand: {
     primary: "#121251",
     bgColor: "#f4f6f8",
-    textBlue: "#1B233D",
-    textLightGray: "#ebebeb",
-    textDarkGray: "#141414",
+    lightblue: "#1B233D",
+    lightgray: "#ebebeb",
+    darkgray: "#89898a",
     white: "#fff",
   },
 };
