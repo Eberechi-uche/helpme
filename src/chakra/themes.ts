@@ -8,10 +8,17 @@ import { extendTheme } from "@chakra-ui/react";
 const colors = {
   brand: {
     primary: "#121251",
+    bgColor: "#f4f6f8",
     textBlue: "#1B233D",
     textLightGray: "#ebebeb",
     textDarkGray: "#141414",
+    white: "#fff",
   },
 };
 
-export const theme = extendTheme({ colors });
+const fonts = {
+  heading: "var(--font-sora)",
+  color: "red",
+};
+
+export const customTheme = extendTheme({ colors, fonts });
