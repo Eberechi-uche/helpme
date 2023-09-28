@@ -18,7 +18,15 @@ export function FeaturesInfoCard({
     <Flex>
       <Flex align={"flex-start"} my={"4"}>
         {Icon}
-        <Flex flexDir={"column"} mx={"4"}>
+        <Flex
+          flexDir={"column"}
+          mx={"4"}
+          w={{
+            base: "100%",
+            md: "75%",
+            lg: "70%",
+          }}
+        >
           <Text
             fontWeight={"semibold"}
             fontSize={"sm"}
@@ -26,7 +34,15 @@ export function FeaturesInfoCard({
           >
             {Heading}
           </Text>
-          <Text fontSize={"xs"} color={"brand.darkgray"} lineHeight={"2"}>
+          <Text
+            fontSize={{
+              base: "2xs",
+              md: "sm",
+              lg: "md",
+            }}
+            color={"brand.darkgray"}
+            lineHeight={"2"}
+          >
             {text}
           </Text>
         </Flex>

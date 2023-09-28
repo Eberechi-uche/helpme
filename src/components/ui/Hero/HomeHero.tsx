@@ -40,7 +40,14 @@ export default function HomeHero() {
               dont just tell them
             </Heading>
 
-            <Text my={"6"}>
+            <Text
+              my={"6"}
+              fontSize={{
+                base: "2xs",
+                md: "xs",
+                lg: "md",
+              }}
+            >
               Help your friends and loved ones by creating and sending <br />
               videos on how to get things done on a website.
             </Text>
@@ -83,7 +90,7 @@ export function HomeHeroLeftLHS() {
               lg: "200px",
             }}
             pos={"absolute"}
-            bottom={"0"}
+            bottom={"1"}
           />
           <Image
             alt={"dots"}
@@ -122,6 +129,7 @@ export function HomeHeroLeftLHS() {
                 src="/images/oneLady.png"
                 objectFit={"cover"}
                 h={"100%"}
+                w={"305px"}
                 zIndex={"2"}
                 borderRadius={"8"}
               />
