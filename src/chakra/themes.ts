@@ -13,6 +13,8 @@ const colors = {
     lightgray: "#ebebeb",
     darkgray: "#89898a",
     white: "#fff",
+    cardcolor: "#fdfdfd",
+    lightpurple: "#c7c6d4",
   },
 };
 
