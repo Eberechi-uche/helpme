@@ -15,6 +15,7 @@ const colors = {
     white: "#fff",
     cardcolor: "#fdfdfd",
     lightpurple: "#c7c6d4",
+    dark: "#141414",
   },
 };
 
