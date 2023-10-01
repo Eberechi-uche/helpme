@@ -52,7 +52,13 @@ export default function HomeHero() {
               videos on how to get things done on a website.
             </Text>
 
-            <Button w={"fit-content"} my={"4"} px={"4"}>
+            <Button
+              w={"fit-content"}
+              my={"4"}
+              px={"4"}
+              backgroundColor={"brand.primary"}
+              color={"#fff"}
+            >
               Install helpout
             </Button>
           </Flex>
