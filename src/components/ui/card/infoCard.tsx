@@ -89,6 +89,10 @@ export function FeaturesCardLayout() {
           alt={"Features image"}
           src={"/vidoRepository.svg"}
           objectFit={"cover"}
+          _hover={{
+            transform: "scale(1.2)",
+          }}
+          transition={"transform 0.5s ease-in-out"}
         />
       </Flex>
     </Flex>
@@ -165,6 +169,10 @@ export function HightLightCard(props: HightLightCardProps) {
           alt={"user flow description "}
           src={"/recordImage.svg"}
           objectFit={"cover"}
+          _hover={{
+            transform: "scale(1.1)",
+          }}
+          transition={"transform 0.5s ease-in-out"}
         />
       </Flex>
     </Flex>

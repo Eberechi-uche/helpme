@@ -58,6 +58,11 @@ export default function HomeHero() {
               px={"4"}
               backgroundColor={"brand.primary"}
               color={"#fff"}
+              _hover={{
+                backgroundColor: "brand.primary",
+                transform: "scaleX(1.2)",
+              }}
+              transition={"all 0.4s ease-in-out"}
             >
               Install helpout
             </Button>
@@ -119,6 +124,10 @@ export function HomeHeroLeftLHS() {
                 mb={"4"}
                 h={"100%"}
                 borderRadius={"8"}
+                _hover={{
+                  transform: "scale(1.1)",
+                }}
+                transition={"transform 0.5s ease-in-out"}
               />
               <Image
                 alt={"display image"}
@@ -127,6 +136,10 @@ export function HomeHeroLeftLHS() {
                 zIndex={"2"}
                 h={"100%"}
                 borderRadius={"8"}
+                _hover={{
+                  transform: "scale(1.1)",
+                }}
+                transition={"transform 0.5s ease-in-out"}
               />
             </Flex>
             <Flex w={"50%"} ml={"4"}>
@@ -138,6 +151,10 @@ export function HomeHeroLeftLHS() {
                 w={"305px"}
                 zIndex={"2"}
                 borderRadius={"8"}
+                _hover={{
+                  transform: "scale(1.1)",
+                }}
+                transition={"transform 0.5s ease-in-out"}
               />
             </Flex>
           </Flex>

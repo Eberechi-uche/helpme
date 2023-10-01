@@ -20,7 +20,7 @@ const colors = {
 };
 
 const fonts = {
-  heading: `var(--font-sora)`,
+  heading: `'Sora Variable', sans-serif`,
   color: "red",
 };
 
